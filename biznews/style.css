@@ -2,78 +2,124 @@ html{
 
 	width: 1200px;
 	margin: 0 auto;
+	padding-top: 0;
+	display: inline-block;
 
 }
 
 body{
 	
 	width: 1200px;
-	overflow: auto;
+	margin: 0 auto;
+	
+
 
 }
 
 #header{
 	width: 1200px;
 	height: 100px;
-
-	padding-top: 0px;
+	
 	background-color: black;
-	opacity: 0.5;
-
-
-}
-
-.fixed{
-	  position: fixed;
-	  top: 0px;
-	  z-index: 9999;
-	  margin: 0 auto;
-	  opacity: 1;
-}
-
-
-		#menu{
-
-			position:relative;
-			top: 85%;
-			margin: 0 auto;
-			text-align: center;
-			margin: 0;
-			padding: 0;
-
-		}
+	overflow: visible;
+	
 
 	
 
 
-			#menu>li{
-				list-style: none;
-				display: inline-block;
-				font-family:sans-serif;
-				margin-right: 20px;
-				color: #fff;
-
-
-			}
+}
 
 	#headerimg{
 
-		color: black;
 		position:relative;
-		
-		top: 0px;
-		text-align: center;
-		font-family:From Cartoon Blocks;
-		color: #fff;
+		margin: 0;
+		padding: 0;
 
+		text-align: center;
+
+		color: #fff;	
+		font-family:From Cartoon Blocks;
+		
 	}
+
+	#menu-wraper{
+
+		position:relative;
+		margin: 0 auto;
+		 z-index: 9999;
+		text-align: center;	
+		background-color: black;
+
+		}
+
+		.fixed{
+		  position: fixed;
+		  z-index: 9999;
+		  
+		  margin: 0 auto;
+
+		}
+
+			#menu{
+
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+
+		
+			}
+
+				 #menu li{
+					list-style: none;
+					display: inline-block;
+					margin: 0;
+					padding: 0;	
+					font-family:sans-serif;
+					margin-right: 20px;
+					
+				}
+
+				#menu a{
+
+					text-decoration: none;
+					color: #fff;
+				}
+
+
+			.content{
+
+				z-index: 9999;
+				background-color:#E3E3E3;
+				
+
+				
+
+			}
+
+			.showhide{
+
+				color: black;
+							z-index: 9999;
+
+				
+			}
+
+
+			#menu li a:hover,
+			#menu li a.active{
+				background-color: black;
+				color:#333;
+				z-index: 9999;
+			}
+
 
 
 
 
 
 <!--
-#slide-wrap {
+#slide-wraper {
+
     position: relative;
     width: 1200px;
     height: 350px;
@@ -128,7 +174,7 @@ body{
 #feed{
 
 
-	position: absolute;
+	position: relative;
 	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -140,6 +186,7 @@ body{
 		height:300px;	
 		padding: 10px;
 		float: left;
+		text-decoration: none;
 
 
 
@@ -168,7 +215,15 @@ body{
 			height: 140px;
 			margin-bottom: 10px;
 			font-size: 24px;
+			text-decoration: none;
 			
+			
+
+		}
+
+		#articletitle a{
+			text-decoration: none;
+			color: black;
 		}
 
 		#days{
@@ -181,7 +236,8 @@ body{
 
 			border-radius: 10px;
 			border: 1px solid;
-			box-shadow: 3px 3px
+			
+			text-decoration: none;
 
 
 		}

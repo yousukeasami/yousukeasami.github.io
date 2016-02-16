@@ -7,16 +7,21 @@
         $( '#slide-img' ) . cycle( {
             fx: 'scrollLeft',
             speed: 2000, 
-            timeout: 3000,
+            timeout: 0,
             sync: 1,
             next: 'next',
-            prev: 'prev'
+            prev: 'prev',
+            
         } );
 
-       $('#slide-wrap') . hover(
-            function() { jQuery( '#nav' ) . fadeIn(); },
-            function() { jQuery( '#nav' ) . fadeOut(); }
+       $('#slide-wraper') . hover(
+            function() { $( '#nav' ) . fadeIn(); },
+            function() { $( '#nav' ) . fadeOut(); }
         );
+
+
+
+
     });
 
 // -->

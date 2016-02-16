@@ -3,10 +3,15 @@
 <head>
 <meta charset=utf-8>
 <link rel="stylesheet" type="text/css" href="style.css">
+
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
 <script src="jquery-1.11.1.min.js"></script>
 <script src="jquery.cycle.all.js" type="text/javascript"></script>
 <script type="text/javascript" src="script.js"></script>
+<script src="jquery-ui.min.js" type="text/javascript"></script>
+
+
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript" src="slide.js"></script>
 <title>biznews</title>
@@ -15,22 +20,49 @@
 
 <body>
 	<div id="header">
-		<div id="menu">
-				<li>総合</li>
-				<li>プログラマー</li>
-				<li>建築家</li>
-				<li>科学者</li>
-				<li>デザイナー</li>
-		</div>
-
 		<h1 id="headerimg">Biznews</h1>
 
+		<div id="menu-wraper">
+		<ul id="menu">
+			<li><a href="#tab01">home</a></li>
+			<li><a href="#tab02">プログラマー</a></li>
+			<li><a href="#tab03">建築家</a></li>
+			<li><a href="#tab04">科学者</a></li>
+			<li><a href="#tab05">デザイナー</a></li>
+		</ul>
+
+		<div class="content">
+			<div class="showhide">
+				<li><a href="#tab01">submenu</a></li>
+				<li><a href="#tab02">submenu</a></li>
+				<li><a href="#tab03">submenu</a></li>
+				<li><a href="#tab04">submenu</a></li>
+				<li><a href="#tab05">submenu</a></li>
+			</div>
+			<div class="showhide">
+				<p>ふたつめのなかみ</p>
+			</div>
+			<div class="showhide">
+				<p>みっつめのなかみ</p>
+			</div>
+			<div class="showhide">
+				<p>よっつめのなかみ</p>
+			</div>
+			<div class="showhide">
+				<p>いつつめのなかみ</p>
+			</div>
+
+
+		</div>
+		</div>
+
+		
+
 	</div>
 
-	<div id="line">
-	</div>
 
-	<div id="slide-wrap">
+
+	<div id="slide-wraper">
 
 		<div id="nav">
 	        <a id="prev"><span><<</span></a>

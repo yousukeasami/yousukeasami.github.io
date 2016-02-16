@@ -164,7 +164,7 @@ else{
 		}
 		
 
-	if(count==15){
+	if(count==14){
 	break;
 }
 	
@@ -201,16 +201,6 @@ $(function(){
 
 	$li=$('li');
 
-
-
-	$li.mouseover(function(){
-
-		$(this).css('background-color','#dcdcdc');
-	})
-	.mouseout(function(){
-
-		$(this).css('background-color','white');
-	});
 
 
 
