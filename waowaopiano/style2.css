@@ -1,0 +1,100 @@
+
+
+#kenban{
+
+position:absolute;
+top:100px;
+left:100px;
+}
+
+#kuro{
+	position: absolute;
+	float: left;
+	left: 20px;
+
+}
+
+#do{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+
+}
+
+#re{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+}
+
+#mi{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+}
+
+#fa{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+}
+
+#so{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+}
+
+#ra{
+	float: left;
+	position:relative;
+	height: 150px;
+	width:30px;
+	border: 1px solid black;
+}
+
+#shado{
+	float: left;
+	position:relative;
+	height: 100px;
+	width:20px;
+	background-color: black;
+	margin-right: 15px;
+}
+
+#share{
+	float: left;
+	position:relative;
+	height: 100px;
+	width:20px;
+	margin-right: 40px;
+	background-color: black;
+}
+
+#shaso{
+	float: left;
+	position:relative;
+	height: 100px;
+	width:20px;
+	margin-right: 15px;
+	background-color: black;
+}
+
+#shafa{
+	float: left;
+	position:relative;
+	height: 100px;
+	width:20px;
+	margin-right: 15px;
+	background-color: black;
+}

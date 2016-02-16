@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset=utf-8>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+
+
+$(function(){
+
+	$html=$('html');
+	
+
+	$html.mouseover(function(a){
+		var px =a.pageX;
+		var py =a.pageY;
+		var positionx = px;
+		var positiony = py;
+
+
+		$ball_left=$('#ball_left');
+		$ball_right=$('#ball_right');
+		$eye_left=$('#eye_left');
+		$eye_right=$('#eye_right');
+
+
+		$x_bar=$eye_left.width()/2;
+		$y_bar=$eye_left.height()/2;
+		var L=Math.sqrt(positionx*positionx+positiony*positiony);
+		var sx,sy;
+		var range=15;
+		var speed=100;
+
+
+
+
+
+		if((130+$x_bar<positionx&&160+$y_bar>positiony)||(190+$x_bar<positionx&&160+$y_bar>positiony)){
+
+		if(L>10){
+
+		sx=range*positionx/L;
+		sy=range*positionx/L;
+
+		$ball_left.animate({left:sx+15+'px',top:-sy+15+'py'},speed
+			);
+
+		$ball_right.animate({left:sx+15+'px',top:-sy+15+'py'},speed
+			);
+	}
+
+}
+
+else if((130+$x_bar<positionx&&160+$y_bar<positiony)||(190+$x_bar<positionx&&160+$y_bar<positiony)){
+
+		if(L>10){
+
+		sx=range*positionx/L;
+		sy=range*positionx/L;
+
+		$ball_left.animate({left:sx+15+'px',top:sy+15+'px'},speed
+			);
+
+		$ball_right.animate({left:sx+15+'px',top:sy+15+'px'},speed
+			);
+	}
+
+}
+
+else if((130+$x_bar>positionx&&160+$y_bar<positiony)||(190+$x_bar>positionx&&160+$y_bar<positiony)){
+
+		if(L>10){
+
+		sx=range*positionx/L;
+		sy=range*positionx/L;
+
+		$ball_left.animate({left:-sx+15+'px',top:sy+15+'px'},speed
+			);
+
+		$ball_right.animate({left:-sx+15+'px',top:sy+15+'px'},speed
+			);
+	}
+
+}
+
+else if((130+$x_bar>positionx&&160+$y_bar>positiony)||(190+$x_bar>positionx&&160+$y_bar>positiony)){
+
+		if(L>10){
+
+		sx=range*positionx/L;
+		sy=range*positionx/L;
+
+		$ball_left.animate({left:-sx+15+'px',top:-sy+15+'px'},speed
+			);
+
+		$ball_right.animate({left:-sx+15+'px',top:-sy+15+'px'},speed
+			);
+	}
+
+}
+
+				
+});
+
+
+$nose=$('#nose');
+$tang=$('#tang');
+
+$nose.click(function(){
+if($tang.css('display')=='none'){
+$tang.slideDown('fast');
+}
+else{
+$tang.slideUp('fast');	
+}
+
+});
+
+
+});
+
+</script>
+
+</head>
+<body>
+
+<div id="face">
+	
+	<div id="eye_left">
+		<div id="ball_left">
+		</div>
+	</div>
+	<div id="eye_right">
+		<div id="ball_right">
+		</div>
+	</div>
+
+
+
+
+	<div id="mouse">
+		<div id="nose">
+		</div>
+	</div>
+
+	<div id="tang" style="display:none;">
+	</div>
+
+
+</div>
+
+<div id="ear_left">
+</div>
+<div id="ear_right">
+</div>
+
+
+
+
+
+
+</body>
+</html>
