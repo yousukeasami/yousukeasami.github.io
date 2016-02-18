@@ -1,0 +1,70 @@
+body{
+  position: relative;
+  background: url(img/suit.png);
+
+  
+}
+
+#bg-suit{
+
+  position: relative;
+
+  padding: 10px;
+ 
+  
+}
+
+
+#bg-necktai{
+  
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  top: 50%;
+  background: url(img/bg.png);
+  
+
+}
+
+.page-header{
+
+  position: relative;
+ 
+  text-align: center;
+  background: #fff;
+ 
+}
+
+#nav-wrap{
+
+  position: relative;
+
+  margin: 0 auto;
+  background: #fff;
+}
+
+.row{
+
+  position: relative;
+  float: left;
+  margin: 5px;
+
+
+}
+
+.panel-body{
+
+  background: #fff;
+}
+
+.tab-pane{
+  position: relative;
+  margin: 0 auto;
+}
+
+.form-horizontal{
+
+  padding: 0 10px;
+}
+
