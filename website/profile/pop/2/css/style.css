@@ -1,66 +1,95 @@
 body{
-  position: relative;
-  background: url(img/suit.png);
+  position:relative;
+    background: url(img/suit.png) ; 
+
+
 
   
 }
 
 #bg-suit{
 
-  position: relative;
+  position:relative;
 
-  padding: 10px;
- 
   
 }
 
 
 #bg-necktai{
-  
-  position: relative;
-  width: 50%;
+  display: block;
+  position:relative;
   margin: 0 auto;
-  padding: 10px;
-  top: 50%;
+  width: 50%;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   background: url(img/bg.png);
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4); 
+  -webkit-border-radius: 10px;
+
   
 
 }
+
+.panel{
+  padding: 10px;
+}
+
+.panel-heading{
+  position: relative;
+  text-align: center;
+}
+
 
 .page-header{
 
   position: relative;
- 
   text-align: center;
   background: #fff;
+
  
 }
 
-#nav-wrap{
+.navbar{
 
   position: relative;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4); 
 
-  margin: 0 auto;
-  background: #fff;
+  
+}
+
+#mytab{
+
+
+
 }
 
 .row{
 
   position: relative;
   float: left;
-  margin: 5px;
+  margin: 10px;
 
 
 }
+
+
 
 .panel-body{
 
   background: #fff;
+  position: relative;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+   -webkit-border-radius: 4px;
+   
 }
+
+box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
 
 .tab-pane{
   position: relative;
   margin: 0 auto;
+
 }
 
 .form-horizontal{
@@ -68,3 +97,19 @@ body{
   padding: 0 10px;
 }
 
+.tab-pane{
+
+  text-align: center;
+}
+
+li{
+
+  list-style: none;
+}
+
+.tab-content{
+
+  background: #fff;
+ 
+
+}
