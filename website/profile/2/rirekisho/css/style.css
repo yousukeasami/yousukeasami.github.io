@@ -1,0 +1,138 @@
+body{
+    position:relative;
+    background: url(img/suit.png) ; 
+
+    
+  }
+
+    #bg-suit{
+
+          position:absolute;
+          
+      
+
+      
+      } 
+
+
+      #bg-necktai{
+       
+        position:relative;
+        margin: 0 auto;
+        width: 50%;
+        padding: 7px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        background: url(img/bg.png);
+        box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4); 
+        -webkit-border-radius: 10px;
+
+         }
+
+
+         .panel-body{
+
+            background: #fff;
+            position: relative;
+            -webkit-border-radius: 5px;
+            font-family: 'ヒラギノ角ゴ Pro W6';
+            
+   
+          }
+
+            .panel-heading{
+                position: relative;
+                text-align: center;
+          } 
+
+          .m-left{
+
+            position: relative;
+            float: left;
+          }
+
+
+          .m-body{
+
+            position: relative;
+            float: right;
+
+          }
+
+            .navbar{
+
+              position: relative;
+             
+              
+            }
+
+        .panel{
+          padding: 10px;
+
+        }
+
+
+
+.h-font{
+
+  font-family: none;
+  font-size: 14px;
+}
+
+    .medea a{
+
+          text-decoration: none;
+    }
+
+    .media-object{
+
+      width: 70px;
+      height: 70px;
+
+
+
+
+    }
+    .media-body{
+      position: relative;
+
+    }
+
+.pf-font{
+
+  font-family: none;
+  font-size: 14px;
+}
+
+
+  .tab-panel{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+
+li{
+
+  list-style: none;
+}
+
+.media-left{
+  position: relative;
+  margin-right: 20px;
+}
+
+.media-heading{
+  position: relative;
+  margin-left: 20px;
+}
+
+.panel-footer{
+  position: relative;
+  font-family: none;
+  font-size: 10px;
+}
+
+
+
