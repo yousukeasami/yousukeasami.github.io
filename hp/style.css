@@ -10,11 +10,18 @@ body{
 	padding: 0;
 	display: block; 
 	width: 100%;
+
 	
 }
 
 h3{
     font-weight: normal;
+    padding: 0;
+    margin: 0;
+    margin: 4px 20px;
+   font-family:'ヒラギノ角ゴ Pro W3';
+   color: #fff;
+   font-size: 18px;
 }
 
 
@@ -50,6 +57,7 @@ ul.bxslider {
 	background:#FF6347;
 	position: fixed;
 	z-index: 9999;
+	box-shadow: 0 0 4px 1px #ccc; 
 
 
 
@@ -62,8 +70,8 @@ ul.bxslider {
 
 	margin: 0 auto;
 	font-family: arial,sans-serif;
-    border-bottom: 1px solid #F5F5F5;
     overflow: hidden;
+
 
 
 }
@@ -74,7 +82,7 @@ ul.bxslider {
 	float: left;
 	display:block;
 	top:16px;
-	border: 2px solid #F5F5F5;
+	box-shadow: 0 0 4px 1px #ccc;
 	border-radius: 5px;
 
 }
@@ -94,7 +102,6 @@ ul.bxslider {
 	width: 380px;
 	margin: 0 auto;
 	overflow: hidden;
-	right: 10px;
 	top:20px;
 }
 
@@ -145,12 +152,13 @@ ul.bxslider {
 
 }
 
-.contents_header{
+.contents-header{
 
-	
-
-
-
+	position: relative;
+	background:#FF6347;
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
 }
 
 /*about*/
@@ -158,9 +166,12 @@ ul.bxslider {
 #about,#keireki{
 	width: 380px;
 	margin: 0 auto;
-	margin-bottom:100px; 
+	margin-top:170px; 
+	margin-bottom:170px; 
 	overflow: hidden;
-	padding: 8px;
+	box-shadow: 0 0 4px 1px #ccc;
+	
+	border-radius: 2px;
 
 
 }
@@ -168,8 +179,9 @@ ul.bxslider {
 
 #text-background{
 
-	border-radius: 5px;
-	padding:10px 12px 10px 0;
+
+	padding:4px 8px;
+	margin:10px 12px;
 	
 }
 
@@ -190,7 +202,7 @@ ul.bxslider {
 	border-radius: 5px;
 	position: relative;
 	overflow: hidden;
-	padding:10px 12px 10px 0;
+	padding:14px 12px 10px 0;
 
 }
 
@@ -198,7 +210,7 @@ ul.bxslider {
 
 	position: relative;
 	float: left;
-	padding:10px 12px 10px 0;
+	padding:10px 12px;
 }
 
 #years li{
@@ -245,10 +257,17 @@ ul.bxslider {
 
 #portfollio{
 
-	width: 380px;
+	width: 400px;
 	overflow: hidden;
 	margin: 0 auto;
-	margin-bottom:100px; 
+	margin-top: 120px;
+	margin-bottom:120px; 
+	
+	position: relative;
+	right: 2px;	
+	box-shadow: 0 0 4px 1px #ccc; 
+	border-radius: 5px;
+	
 
 }
 
@@ -256,7 +275,7 @@ ul.bxslider {
 
 	overflow: hidden;
 	position: relative;
-	padding:10px 12px 10px 0;
+	
 	
 	
 
@@ -268,6 +287,8 @@ ul.bxslider {
 	height: 350px;
 	overflow: scroll;
 	z-index: -9999;
+	padding:0px 10px;
+	margin:20px 14px;
 
 }
 
@@ -275,7 +296,7 @@ ul.bxslider {
 #portfollio-list li{
 
 	float: left;
-	margin: 12px 10px;
+	margin: 12px 8px;
 
 }
 
@@ -290,6 +311,7 @@ ul.bxslider {
 	position: relative;
 	overflow: hidden;
 	width: 100px;
+	border-radius: 2px;
 
 
 }
@@ -315,6 +337,7 @@ ul.bxslider {
 
 	width: 100%;
 	height: 100%;
+
 
 }
 
