@@ -16,8 +16,8 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0px;
 	*zoom: 1;
 }
 
@@ -30,12 +30,11 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
-	left: -5px;
-	background: #fff;
+	-moz-box-shadow: 0;
+	-webkit-box-shadow: 0 ;
+	border:  0;
+	left: 0;
+	background: #000;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -55,7 +54,7 @@
 /* LOADER */
 
 .bx-wrapper .bx-loading {
-	min-height: 50px;
+	min-height: 40px;
 	background: url(images/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
@@ -134,6 +133,7 @@
 
 .bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
+
 }
 
 /* AUTO CONTROLS (START / STOP) */

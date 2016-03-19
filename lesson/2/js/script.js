@@ -26,64 +26,7 @@ $(document).ready(function(){
 		    return false;
 	});
 
-
- 	$(".sub").hide();
-    	$(".menu").hover(function(){
-            $('.sub').slideDown("fast")
-        },
-        function(){
-            $(".sub").slideUp("fast");
-    })
-
-
-
+		
 });
 
-$(document).ready(function(){
-  		
-
-  		$('.bxslider1').bxSlider({
- 
-  		 slideWidth: 960, //スライド内の1要素の幅
- 
-  		  maxSlides: 1, //一度に表示させる数
-  		  minSlides: 1, //最低限表示させる数
-  		  mode: 'vertical',
-  		  pager:true,
-  		  pagerType: 'short',
-        
-
-  	});
-
-  		$('.bxslider2').bxSlider({
-
-  			pager:false,
-  			
-  		 	//auto: true,  //自動再生
-  		  //pagerCustom: '#bx-pager',//ページャーを画像にする
-
-  		});
-
-  		$('.bxslider3').bxSlider({
- 
-  		 slideWidth: 900, //スライド内の1要素の幅
-  		  maxSlides: 7, //一度に表示させる数
-  		  minSlides: 6, //最低限表示させる数
-  		  moveSlides:1, //スライドで動かす数
-  		  pager:false,
-  		  slideMargin: 20,
-        
-  	});
-
-  		$('.bxslider4').bxSlider({
- 
-  		  slideWidth: 960, //スライド内の1要素の幅
-  		  maxSlides: 1, //一度に表示させる数
-  		  minSlides: 1, //最低限表示させる数
-  		  moveSlides:1, //スライドで動かす数
-  		  pager:false
-        
-
-  	});
-});
 
