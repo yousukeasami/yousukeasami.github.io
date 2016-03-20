@@ -134,7 +134,9 @@ ul.bxslider {
 	}
 
 
-
+p{
+	margin: 0;
+}
 
 /*  body  */
 
@@ -142,7 +144,7 @@ ul.bxslider {
 
 	position: relative;
 	overflow: hidden;
-	background: #EEEEEE;
+	background: #EfEfEf;
 }
 
 #contents_inner{
